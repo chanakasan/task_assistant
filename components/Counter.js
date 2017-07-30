@@ -31,7 +31,7 @@ export default class Counter extends React.Component {
   render() {
     return this.state.clicks === null ? <Spinner /> : (
       <div className="my-counter" onClick={this.handleClick}>
-        <h1>clicks: { this.state.clicks }</h1>
+        <h1>clicks: <span className="num_clicks">{ this.state.clicks }</span></h1>
       </div>
     )
   }
