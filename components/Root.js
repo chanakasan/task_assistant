@@ -1,14 +1,6 @@
 import React from 'react';
-import Hello from './Hello';
-import Counter from './Counter';
+import App from './App';
 
-const Root = () => (
-  <div>
-    <Hello />
-
-    <hr />
-    <Counter />
-  </div>
-)
+const Root = () => <App />
 
 export default Root
